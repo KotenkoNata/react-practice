@@ -12,7 +12,7 @@ function Expenses({expenses}) {
     return (
         <Card className="expenses">
             <ExpenseFilter selected={filteredYear} onChangeFilter={filterChangeHandler}/>
-            {expenses.map(item=><ExpenseItem key={item.id}
+            {expenses.map(item => <ExpenseItem key={item.id}
                                              amount={item.amount}
                                              date={item.date}
                                              title={item.title}/>)}
