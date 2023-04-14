@@ -11,7 +11,6 @@ function ExpenseItem({amount, title, date}) {
             <h2>{title}</h2>
         </div>
         <div className='expense-item__price'>$ {amount}</div>
-            <button> Change title </button>
         </Card>
     )
 }
